@@ -7,6 +7,7 @@ namespace BulkyBookWeb.Data
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) :base(options) //ctor
         {
+
         }
 
         public DbSet<Category> Categories { get; set; }
